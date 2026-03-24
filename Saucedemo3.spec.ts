@@ -47,6 +47,8 @@ test('purchase', async ({ page }) => {
 
     await expect(page.getByRole('heading', {name: 'Thank you for your order!'})). toBeVisible()
 
+    await expect(page.getByRole('heading', {name: 'Thank you for your order!'})). toBeVisible()
+
     await page.pause();
 
 
